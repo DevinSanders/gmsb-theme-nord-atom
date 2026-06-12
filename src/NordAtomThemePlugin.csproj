@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>NordAtomThemePlugin</AssemblyName>
+    <RootNamespace>NordAtomThemePlugin</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SoundBoard.PluginApi" Version="1.0.0-beta.1" ExcludeAssets="runtime" />
+    <PackageReference Include="Avalonia" Version="12.0.4" ExcludeAssets="runtime" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="12.0.4" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Themes/Nord.axaml" />
+    <AvaloniaResource Include="Themes/AtomOneDark.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

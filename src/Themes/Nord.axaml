@@ -1,0 +1,40 @@
+<!-- Nord — arcticicestudio's frosty Polar Night with Frost accents.
+     A flat theme: one set of colours, no Dark/Light variants. The host
+     applies these regardless of the active Avalonia variant. -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Surfaces — Polar Night. -->
+    <SolidColorBrush x:Key="SidebarBackground"      Color="#2E3440" />
+    <SolidColorBrush x:Key="ContentBackground"      Color="#3B4252" />
+    <SolidColorBrush x:Key="PanelBackground1"       Color="#2E3440" />
+    <SolidColorBrush x:Key="PanelBackground2"       Color="#3B4252" />
+    <SolidColorBrush x:Key="PanelBackground3"       Color="#434C5E" />
+    <SolidColorBrush x:Key="SubtleBorder"           Color="#4C566A" />
+
+    <!-- Accents — Frost nord8 + nord9. -->
+    <SolidColorBrush x:Key="PrimaryAccent"          Color="#88C0D0" />
+    <SolidColorBrush x:Key="PrimaryAccentHover"     Color="#A3D0DC" />
+    <SolidColorBrush x:Key="OnPrimaryAccent"        Color="#2E3440" />
+    <SolidColorBrush x:Key="SecondaryAccent"        Color="#81A1C1" />
+
+    <!-- Text — Snow Storm nord6 + nord4. -->
+    <SolidColorBrush x:Key="TextPrimary"            Color="#ECEFF4" />
+    <SolidColorBrush x:Key="TextSecondary"          Color="#D8DEE9" />
+
+    <!-- Status pairs — Aurora accents on Polar Night-tinted bgs. -->
+    <SolidColorBrush x:Key="SuccessBackground"      Color="#2F3D33" />
+    <SolidColorBrush x:Key="SuccessForeground"      Color="#A3BE8C" />
+    <SolidColorBrush x:Key="DangerBackground"       Color="#3F2E32" />
+    <SolidColorBrush x:Key="DangerForeground"       Color="#BF616A" />
+    <SolidColorBrush x:Key="InfoBackground"         Color="#2C3946" />
+    <SolidColorBrush x:Key="InfoForeground"         Color="#88C0D0" />
+    <SolidColorBrush x:Key="WarningBackground"      Color="#403B2E" />
+    <SolidColorBrush x:Key="WarningForeground"      Color="#EBCB8B" />
+
+    <!-- Composition keys. -->
+    <SolidColorBrush x:Key="DropZoneHighlight"      Color="#B488C0D0" />
+    <SolidColorBrush x:Key="WaveformBrush"          Color="#88C0D0" />
+    <SolidColorBrush x:Key="LoopInheritForeground"  Color="#D8DEE9" />
+    <SolidColorBrush x:Key="LoopForceOnForeground"  Color="#A3BE8C" />
+    <SolidColorBrush x:Key="LoopForceOffForeground" Color="#BF616A" />
+</ResourceDictionary>

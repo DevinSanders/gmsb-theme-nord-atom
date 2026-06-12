@@ -1,0 +1,40 @@
+<!-- Atom One Dark — the warmer dark scheme from GitHub's Atom editor.
+     A flat theme: one set of colours, no Dark/Light variants. The host
+     applies these regardless of the active Avalonia variant. -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Surfaces — One Dark's bg / bgAlt / bgHighlight ladder. -->
+    <SolidColorBrush x:Key="SidebarBackground"      Color="#21252B" />
+    <SolidColorBrush x:Key="ContentBackground"      Color="#282C34" />
+    <SolidColorBrush x:Key="PanelBackground1"       Color="#21252B" />
+    <SolidColorBrush x:Key="PanelBackground2"       Color="#2C313A" />
+    <SolidColorBrush x:Key="PanelBackground3"       Color="#3E4451" />
+    <SolidColorBrush x:Key="SubtleBorder"           Color="#3E4451" />
+
+    <!-- Accents — One Dark's cursor blue + syntax purple. -->
+    <SolidColorBrush x:Key="PrimaryAccent"          Color="#61AFEF" />
+    <SolidColorBrush x:Key="PrimaryAccentHover"     Color="#7CC0F2" />
+    <SolidColorBrush x:Key="OnPrimaryAccent"        Color="#282C34" />
+    <SolidColorBrush x:Key="SecondaryAccent"        Color="#C678DD" />
+
+    <!-- Text — One Dark's fg + fgAlt. -->
+    <SolidColorBrush x:Key="TextPrimary"            Color="#ABB2BF" />
+    <SolidColorBrush x:Key="TextSecondary"          Color="#5C6370" />
+
+    <!-- Status pairs — One Dark syntax accents. -->
+    <SolidColorBrush x:Key="SuccessBackground"      Color="#2D3A2E" />
+    <SolidColorBrush x:Key="SuccessForeground"      Color="#98C379" />
+    <SolidColorBrush x:Key="DangerBackground"       Color="#3D2C30" />
+    <SolidColorBrush x:Key="DangerForeground"       Color="#E06C75" />
+    <SolidColorBrush x:Key="InfoBackground"         Color="#28384A" />
+    <SolidColorBrush x:Key="InfoForeground"         Color="#61AFEF" />
+    <SolidColorBrush x:Key="WarningBackground"      Color="#3D3528" />
+    <SolidColorBrush x:Key="WarningForeground"      Color="#E5C07B" />
+
+    <!-- Composition keys. -->
+    <SolidColorBrush x:Key="DropZoneHighlight"      Color="#B461AFEF" />
+    <SolidColorBrush x:Key="WaveformBrush"          Color="#61AFEF" />
+    <SolidColorBrush x:Key="LoopInheritForeground"  Color="#5C6370" />
+    <SolidColorBrush x:Key="LoopForceOnForeground"  Color="#98C379" />
+    <SolidColorBrush x:Key="LoopForceOffForeground" Color="#E06C75" />
+</ResourceDictionary>

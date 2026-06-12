@@ -1,0 +1,10 @@
+{
+  "publisher": "github.DevinSanders",
+  "id": "theme.nord-atom",
+  "name": "Nord & Atom One Dark",
+  "version": "1.0.0",
+  "author": "Devin Sanders",
+  "description": "Two cool dark schemes: Nord (frosty low-contrast blue) and Atom One Dark (warmer softer dark).",
+  "entryDll": "NordAtomThemePlugin.dll",
+  "isTheme": true
+}
