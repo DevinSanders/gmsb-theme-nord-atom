@@ -11,6 +11,15 @@ Two iconic dark colour schemes — opposite ends of the "cool dark" axis. Two in
 
 Each palette is a flat set of colours — one selectable look in the host's theme dropdown (shown as "Nord & Atom One Dark: Nord" / "…: Atom One Dark"). There is no Dark/Light variant: the host applies the palette regardless of the active Avalonia variant and infers light/dark Fluent chrome (scrollbars, popups, focus rings) from the background luminance on its own. Both palettes happen to be dark-looking; users who want light surfaces should pick a light-friendly pack (Catppuccin Latte, Solarized Light, Dracula Alabaster).
 
+## Preview
+
+| Nord | Atom One Dark |
+|:---:|:---:|
+| [![Nord palette applied to Game Master Sound Board](screenshots/Nord.png)](screenshots/Nord.png) | [![Atom One Dark palette applied to Game Master Sound Board](screenshots/AtomOneDark.png)](screenshots/AtomOneDark.png) |
+| Frosty low-contrast Polar Night greys with desaturated Frost cyan/blue accents. | Warmer One Dark surfaces with the recognizable cursor-blue + syntax accent vocabulary. |
+
+Click either screenshot for the full-resolution image.
+
 ## Install
 
 Drop the released `.zip` onto Settings → Plugin Manager. Themes activate live — no restart needed. Pick the palette from Settings → Appearance → Theme.
