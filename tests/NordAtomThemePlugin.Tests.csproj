@@ -25,7 +25,7 @@
     <!-- Avalonia (+ headless) so the embedded avares:// palette
          dictionaries resolve without a real windowing system. -->
     <PackageReference Include="Avalonia" Version="12.0.5" />
-    <PackageReference Include="Avalonia.Headless.XUnit" Version="12.0.4" />
+    <PackageReference Include="Avalonia.Headless.XUnit" Version="12.0.5" />
 
     <!-- FluentAssertions pinned to 7.x: 8.x changed to a commercial
          license. -->
